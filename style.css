@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.header-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.label {
+    background-color: #9ba0e7;
+    padding:6px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.headline {
+    color: hsl(195, 24%, 93%);
+    font-size: 2rem;
+    margin: 0;
+}
+
+.description {
+    color: #eceef0;
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+.aaj-ki-news {
+    color: #6c757d; /* A slightly different color for distinction */
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #323f4b;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.read-more:hover {
+    background-color: #2b343d;
+}
